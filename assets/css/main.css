@@ -5,15 +5,17 @@ html, body {
     height: 100%;
     overflow: hidden;
     margin: 0;
+}
+
+body {
+    background: center no-repeat url('../images/heart-background.jpg') ;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
     color: #fff;
     font-family: Poppins, sans-serif;
-    background: center url('../images/heart-background.jpg') ;
-    background-size: cover;
     font-weight: bolder;
     text-align: center;
-    display: flex;
-    justify-content: center;  /* Horizontally center */
-    align-items: center;      /* Vertically center */
 }
 
 main {
