@@ -18,37 +18,6 @@ body {
     text-align: center;
 }
 
-main {
-    text-align: center;       /* Ensures text inside <main> is centered */
-    padding: 20px;            /* Optional padding */
-}
-
-/* --------------------- */
-/* Classes */
-/* --------------------- */
-
-.top {
-    position: absolute;
-    top: 0;
-}
-.left {
-    left: 0;
-}
-.right {
-    right: 0;
-}
-
-/* --------------------- */
-/* IDs */
-/* --------------------- */
-
-#welcome-message {
-    font-size: 3rem;
-}
-#time {
-    font-size: 12rem;
-    font-weight: bolder;
-}
 
 /* --------------------- */
 /* Animations */
